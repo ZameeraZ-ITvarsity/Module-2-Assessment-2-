@@ -1,0 +1,148 @@
+body {
+    background-image: url(images/background%20image.jpg);
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+}
+#header img {
+    display: block;
+    margin: auto;
+    height: 100%;
+    padding:0;
+}
+
+#tabs-top {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+#tabs-top a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+#main-home {
+    text-align: center;
+    background: rgba(255, 225, 255, 0.5);
+    font-weight: 800;
+    padding: 100 px;
+}
+
+#main-home img {
+    max-width: 100%;
+    line-height: normal;
+}
+
+#shops {
+    padding: 10px;
+    display: flex; 
+    flex-flow: column nowrap;
+    justify-content: center
+}
+
+.shop {
+    display: flex; 
+    align-items: center;  
+    background: rgba(255, 225, 255, 0.5);
+    margin: 10px 0;
+}
+
+h2 {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+h3 {
+    color: darkblue;
+}
+
+p {
+    font-weight: 700;
+}
+
+#movies {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 80px;
+}
+
+.movie {
+    border: 1px solid #ddd;
+    margin: 20px;
+    background: rgba(255, 225, 255, 0.5);
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#movie-details {
+    border: 1px solid #ddd;
+    margin: 20px;
+    background-color: lightgray;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-info {
+    text-align: center;
+    font-weight: 600;
+    font-family: sans-serif;
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+#shop-info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: azure;
+    margin: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.shop-logo {
+    text-align: center;
+}
+
+.shop-details {
+    padding: 0 20px;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
